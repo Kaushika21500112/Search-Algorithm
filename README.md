@@ -39,7 +39,9 @@ k = eval(input())
 n=len(array)
 # use the function for linear search
 result=linearSearch(array,n,k)
-# use if-else to print sorted array and "Element not found" if the item is not present in the list otherwise print sorted array and "Element found at index: ", result
+# use if-else to print sorted array and "Element not found" 
+#if the item is not present in the list otherwise print sorted array 
+#and "Element found at index: ", result
 if result>=0:
     print("Element found at index: ",result)
 else:
@@ -72,7 +74,9 @@ low=0
 high= len(array)-1
 # use the binary search function to find the item in the list
 result=binarySearchIter(array, k, low, high)
-# use if-else to print sorted array and "Element not found" if the item is not present in the list otherwise print sorted array and "Element found at index: ", result
+# use if-else to print sorted array and "Element not found" if the 
+#item is not present in the list otherwise print sorted array and 
+#"Element found at index: ", result
 if result>=0:
     print("Element found at index: ",result)
 else:
@@ -105,7 +109,9 @@ low=0
 high=len(arr)-1
 # use the binary search function to find the result
 result=BinarySearch(arr, k, low, high)
-# use if-else to print sorted array and "Element not found" if the item is not present in the list otherwise print sorted array and "Element found at index: ", result
+# use if-else to print sorted array and "Element not found" if the 
+#item is not present in the list otherwise print sorted array and 
+#"Element found at index: ", result
 if result>=0:
     print("Element found at index: ",result)
 else:
