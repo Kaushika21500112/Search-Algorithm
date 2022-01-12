@@ -48,7 +48,7 @@ else:
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
 ''' 
-Program to find the element in a list using Binary Search(Iterative Method)..
+Program to find the element in a list using Binary Search(Iterative Method).
 Developed by:Kaushika.A
 RegisterNumber: 21500112
 '''
